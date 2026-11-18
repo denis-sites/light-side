@@ -328,6 +328,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 .hero.bgph h1{font-size:clamp(42px,5.4vw,76px)}
 .hero.bgph .qc{background:rgba(16,16,18,.82);backdrop-filter:blur(8px)}
 @media (max-width:640px){.hero.bgph{padding:28px 0 36px;min-height:0;background:linear-gradient(180deg,rgba(10,10,11,.55) 0%,rgba(10,10,11,.9) 38%,rgba(10,10,11,.98) 60%),url(img/p08.jpg) 65% 0/auto 520px no-repeat,#0a0a0b}}
+/* Подбор без цен: на телефоне карточки обычным блоком, чтобы заголовок не сжимался */
+@media (max-width:640px){.pk button{display:block}}
 /* Пара «было / стало» */
 .pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .pair button{position:relative;border:0;padding:0;border-radius:20px;overflow:hidden;cursor:zoom-in;background:#15171a;aspect-ratio:3/4}
